@@ -207,7 +207,7 @@ public partial class SAV_MailBox : Form
             if (isInit)
                 PKMLabels[i].Text = GetSpeciesNameFromCB(p[i].Species);
             int j = Array.IndexOf(MailItemID, p[i].HeldItem);
-            PKMHeldItems[i].Text = j >= 0 ? CB_MailType.Items[j + 1].ToString() : "(not Mail)";
+            PKMHeldItems[i].Text = j >= 0 ? CB_MailType.Items[j + 1]?.ToString() ?? "(not Mail)" : "(not Mail)";
             if (Gen != 3)
                 continue;
             int k = ((PK3)p[i]).HeldMailID;
@@ -351,7 +351,7 @@ public partial class SAV_MailBox : Form
             }
             for (int i = 0; i < 6; i++)
             {
-                var count = heldMailIDs.Count(i);
+                var count = PKHeX.Core.ArrayUtil.Count(heldMailIDs, i);
                 if (count > 1) //D
                     ret.Add($"MailID{i} duplicated");
                 if (m[i].IsEmpty == false && count == 0) //E
