@@ -104,7 +104,7 @@ PKHeX expects save files that are not encrypted with console-specific keys. Use 
 
 ## Building
 
-PKHeX is a Windows Forms application which requires [.NET 7.0](https://dotnet.microsoft.com/download/dotnet/7.0).
+PKHeX is a Windows Forms application which requires [.NET 8.0](https://dotnet.microsoft.com/download/dotnet/8.0).
 
 The executable can be built with any compiler that supports C# 11.
 
@@ -116,7 +116,7 @@ Use the Debug or Release build configurations when building. There isn't any pla
 
 PKHeX's QR code generation code is taken from [QRCoder](https://github.com/codebude/QRCoder), which is licensed under [the MIT license](https://github.com/codebude/QRCoder/blob/master/LICENSE.txt).
 
-PKHeX's shiny sprite collection is taken from [pokesprite](https://github.com/msikma/pokesprite), which is licensed under [the MIT license](https://github.com/msikma/pokesprite/blob/master/LICENSE).
+PKHeX's BDSP shiny sprite collection is taken from [bdsp-shiny-icons](https://github.com/BlupBlurp/bdsp-shiny-icons), which is licensed under [the MIT license](https://github.com/BlupBlurp/bdsp-shiny-icons/blob/main/LICENSE).
 
 PKHeX's Pokémon Legends: Arceus sprite collection is taken from the [National Pokédex - Icon Dex](https://www.deviantart.com/pikafan2000/art/National-Pokedex-Version-Delta-Icon-Dex-824897934) project and its abundance of collaborators and contributors.
 
