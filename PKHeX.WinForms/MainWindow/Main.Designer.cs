@@ -488,7 +488,7 @@ namespace PKHeX.WinForms
             MaximizeBox = false;
             Name = "Main";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            Text = "PKHeX";
+            Text = "PKLumiHeX";
             FormClosing += Main_FormClosing;
             DragDrop += Main_DragDrop;
             menuStrip1.ResumeLayout(false);

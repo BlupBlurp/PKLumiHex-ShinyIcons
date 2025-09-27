@@ -296,7 +296,7 @@ public partial class Main : Form
     {
         if (ModifierKeys == Keys.Control) // triggered via hotkey
         {
-            if (DialogResult.Yes != WinFormsUtil.Prompt(MessageBoxButtons.YesNo, "Quit PKHeX?"))
+            if (DialogResult.Yes != WinFormsUtil.Prompt(MessageBoxButtons.YesNo, "Quit PKLumiHeX?"))
                 return;
         }
 
@@ -729,7 +729,7 @@ public partial class Main : Form
         }
         else if (sav is SAV8BSLuminescent && !HaX)
         {
-            HaX = TempHaX = true;
+            TempHaX = true;
         }
         else if (TempHaX)
         {
