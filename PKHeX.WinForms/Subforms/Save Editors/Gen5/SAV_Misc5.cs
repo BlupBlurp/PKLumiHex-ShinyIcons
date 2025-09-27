@@ -623,7 +623,7 @@ public partial class SAV_Misc5 : Form
             s.Gender = slot.Gender == -1 ? PersonalTable.B2W2[slot.Species].RandomGender() : slot.Gender;
 
             slot.Moves.CopyTo(moves);
-            var count = moves.Length - moves.Count((ushort)0);
+            var count = moves.Length - PKHeX.Core.ArrayUtil.Count(moves, (ushort)0);
             s.Move = count == 0 ? (ushort)0 : moves[rnd.Next(count)];
         }
         ChangeArea(this, EventArgs.Empty); // refresh
