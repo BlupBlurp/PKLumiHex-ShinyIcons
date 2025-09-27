@@ -78,16 +78,20 @@ public static class SpriteName
 
         if (form != 0)
         {
-            sb.Append(Separator).Append("L");
+            sb.Append(Separator).Append('L');
 
             if (species is (ushort)Species.Mewtwo && form == 4) // Armored Mewtwo forms 3 and 4 share a Sprite
-                sb.Append(3);
+                sb.Append('3');
             else
                sb.Append(form);
         }
         if (gender == 1 && ((Species)species == Species.Venusaur || (Species)species == Species.Pikachu))
         {
             sb.Append('f');
+        }
+        if (shiny == true)
+        {
+            sb.Append(Shiny);
         }
 
         return sb.ToString();

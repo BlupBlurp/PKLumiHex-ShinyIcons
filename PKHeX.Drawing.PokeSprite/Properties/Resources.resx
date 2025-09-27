@@ -17476,4 +17476,34 @@
   <data name="_ball9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img\ball\_ball9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="b_3_L3s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\Big Shiny Sprites\b_3_L3s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b_3_L3fs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\Big Shiny Sprites\b_3_L3fs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b_6_L4s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\Big Shiny Sprites\b_6_L4s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b_9_L3s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\Big Shiny Sprites\b_9_L3s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b_25_L17fs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\Big Shiny Sprites\b_25_L17fs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b_25_L17s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\Big Shiny Sprites\b_25_L17s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b_94_L3s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\Big Shiny Sprites\b_94_L3s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b_95_L1s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\Big Shiny Sprites\b_95_L1s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b_133_L3s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\Big Shiny Sprites\b_133_L3s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b_150_L3s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img\Big Shiny Sprites\b_150_L3s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
