@@ -9,9 +9,9 @@
     <h3 align=center>
         Fork of
         <a href="https://github.com/kwsch/PKHeX">PKHeX</a>
-        with added support for Luminescent Platinum!
+        to support Luminescent Platinum
     </h3> 
-    <p align=center>PKLumiHeX is a Work in progress. Some features will not work correctly when editing a Luminescent Platinum save.</p>
+    <p align=center>Some features could break your Luminescent Platinum save, always keep a back up!</p>
 </div>
 
 ##
@@ -32,6 +32,7 @@
         <ul>
             <li>Allows setting seen and caught data</li>
             <ul><li>Luminescent Platinum has significantly shrunk dex data. Setting one form sets all.</li></ul>
+            <li><em>Dex editor can potentially break Dex completion progress, use at your own risk!</em></li>
         </ul>
         <li><h5>Box Layout Editor</h5></li>
         <li><h5>Seal Stickers Editor</h5></li>
@@ -45,10 +46,12 @@
 <div>
     <h3 align=left>Known 'Issues'</h3>
     <ul>
+        <li><h4>Pokedex editor can cause issues if with dex completion tasks.</h4></li>
+        <ul><li>Don't use the dex editor if you want those digital certificates.</li></ul>
         <li><h4>Certain Pokémon show up as a Ditto</h4></li>
         <ul><li>Affected Pokémon are not currently available in Luminescent Platinum 2.0F</li></ul>
-        <li><h4>Shiny Pokémon and certain forms display as the default pixel art sprites</h4></li>
-        <ul><li>Unfortunately, we do not have them in a style similar to what custom forms have</li></ul>
+        <li><h4>Certain forms' shiny display as the default pixel art sprites</h4></li>
+        <ul><li>Unfortunately, we do not have shiny sprites for them</li></ul>
         <li><h4>Sprites for Luminescent forms do not change regardless of shinyness or sprite preference</h4></li>
         <ul><li>Same issue as above, but the shiny symbol <em>will</em> display</li></ul>
     </ul>
