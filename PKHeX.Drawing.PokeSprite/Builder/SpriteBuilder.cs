@@ -55,7 +55,6 @@ public abstract class SpriteBuilder : ISpriteBuilder<Image>
     protected abstract string GetSpriteStringSpeciesOnly(ushort species);
 
     protected abstract string GetSpriteAll(ushort species, byte form, int gender, uint formarg, bool shiny, EntityContext context);
-    private static string GetLumiSprite(ushort species, byte form, int gender, uint formarg, bool shiny) => 'b' + SpriteName.GetLumiResourceStringSprite(species, form, gender, formarg, shiny);
     protected abstract string GetSpriteAllSecondary(ushort species, byte form, int gender, uint formarg, bool shiny, EntityContext context);
     protected abstract string GetItemResourceName(int item);
     protected abstract Bitmap Unknown { get; }
@@ -81,6 +80,8 @@ public abstract class SpriteBuilder : ISpriteBuilder<Image>
     }
 
     private GameVersion Game;
+
+    private static string GetLumiSprite(ushort species, byte form, int gender, uint formarg, bool shiny) => 'b' + SpriteName.GetLumiResourceStringSprite(species, form, gender, formarg, shiny);
 
     private static byte GetDeoxysForm(GameVersion game) => game switch
     {

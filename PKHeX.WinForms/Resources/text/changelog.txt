@@ -1,6 +1,11 @@
 PKLumiHeX - Authored by Red., Updated by PrinceTalon
 https://github.com/TalonSabre/PKLumiHeX/
 
+0.4.1   9-26-2025
+- credit: @Blub for the updates!
+  - Update to .NET 8.0
+  - Proper Shiny Sprites for all non-Lumi exclusive Pokemon & forms added
+
 0.4.0 	11-2-2023
 - Support Luminescent 2.0.1F Pokemon additions
 - Remove Misc and Flags Editor for Lumi saves
