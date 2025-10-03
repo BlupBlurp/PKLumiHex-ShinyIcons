@@ -136,6 +136,7 @@ public static class Legal
     internal static readonly ushort[] HeldItems_GG = Array.Empty<ushort>();
     internal static readonly ushort[] HeldItems_SWSH = ItemStorage8SWSH.GetAllHeld();
     internal static readonly ushort[] HeldItems_BS = ItemStorage8BDSP.GetAll();
+    internal static readonly ushort[] HeldItems_BSLumi = ItemStorage8BDSPLumi.GetAll();
     internal static readonly ushort[] HeldItems_LA = Array.Empty<ushort>();
     internal static readonly ushort[] HeldItems_SV = ItemStorage9SV.GetAllHeld();
 
