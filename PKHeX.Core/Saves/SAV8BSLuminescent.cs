@@ -107,6 +107,7 @@ namespace PKHeX.Core
         public override int MaxBallID => Legal.MaxBallID_8b;
         public override int MaxGameID => (int)GameVersion.RB - 1;
         public override int MaxAbilityID => Legal.MaxAbilityID_8b;
+        public override ReadOnlySpan<ushort> HeldItems => Legal.HeldItems_BSLumi;
 
         public new int SaveRevision
         {
