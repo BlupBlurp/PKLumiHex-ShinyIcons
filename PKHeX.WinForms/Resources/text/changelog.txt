@@ -1,8 +1,11 @@
 PKLumiHeX - Authored by Red., Updated by PrinceTalon
 https://github.com/TalonSabre/PKLumiHeX/
 
+0.4.2   10-3-2025
+- @BlupBlurp fixed certain hold items missing
+
 0.4.1   9-26-2025
-- credit: @Blub for the updates!
+- credit: @BlupBlurp for the updates!
   - Update to .NET 8.0
   - Proper Shiny Sprites for all non-Lumi exclusive Pokemon & forms added
 
