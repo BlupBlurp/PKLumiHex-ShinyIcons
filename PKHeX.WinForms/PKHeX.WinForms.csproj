@@ -9,8 +9,8 @@
 
   <PropertyGroup>
     <PackageId>PKHeX</PackageId>
-    <AssemblyName>PKHeX</AssemblyName>
-    <Description>Pokémon Save Editor</Description>
+    <AssemblyName>PKLumiHeX</AssemblyName>
+    <Description>Pokémon Luminescent Platinum Save Editor</Description>
     <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
     <StartupObject>PKHeX.WinForms.Program</StartupObject>
     <RootNamespace>PKHeX.WinForms</RootNamespace>
@@ -24,6 +24,10 @@
     <PublishSingleFile>true</PublishSingleFile>
     <PublishTrimmed>false</PublishTrimmed>
     <SelfContained>false</SelfContained>
+    <Version>0.4.2</Version>
+    <Copyright>Kaphotics, Team Luminescent</Copyright>
+    <Product>PKLumiHeX</Product>
+    <Authors>Kaphotics, Red, TalonSabre, BlupBlurp</Authors>
   </PropertyGroup>
 
   <ItemGroup>
